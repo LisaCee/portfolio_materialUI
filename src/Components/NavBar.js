@@ -34,6 +34,14 @@ export default function NavBar() {
                     <Typography variant='p' >
                         Full Stack Web Developer
                     </Typography>
+                    <List>
+                        <ListItem>
+                            <ListItemText>About</ListItemText>
+                        </ListItem>
+                        <ListItem>
+                            <ListItemText>Contact</ListItemText>
+                        </ListItem>
+                    </List>
                 </Toolbar>
             </AppBar>
         </div>
