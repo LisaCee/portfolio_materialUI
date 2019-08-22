@@ -31,7 +31,7 @@ export default function NavBar() {
                     <Typography variant='h6' >
                         Lisa Canini
                     </Typography>
-                    <Typography variant='p' >
+                    <Typography variant='body' >
                         Full Stack Web Developer
                     </Typography>
                     <List>
