@@ -3,11 +3,11 @@ import {makeStyles} from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
+import Slide from '@material-ui/core/Slide';
+import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -18,20 +18,30 @@ const useStyles = makeStyles(theme => ({
     }
 }));
 
-export default function NavBar() {
+function HideOnScroll(props) {
+    const {children, window} = props;
+    const trigger = useScrollTrigger({ target: window ? window() : undefined });
+
+    return (
+    <Slide appear={false} direction="down" in={!trigger}>
+    {children}
+    </Slide>
+    );
+}
+
+export default function NavBar(props) {
     const classes = useStyles();
 
     return (
         <div className={classes.root}>
+            <HideOnScroll {...props}>
             <AppBar>
                 <Toolbar>
-                    <IconButton edge='start' className={classes.menuButton} aria-label='menu'>
-                        <MenuIcon/>
-                    </IconButton>
+            
                     <Typography variant='h6' >
                         Lisa Canini
                     </Typography>
-                    <Typography variant='body' >
+                    <Typography variant='h6' >
                         Full Stack Web Developer
                     </Typography>
                     <List>
@@ -42,8 +52,12 @@ export default function NavBar() {
                             <ListItemText>Contact</ListItemText>
                         </ListItem>
                     </List>
-                </Toolbar>
-            </AppBar>
+                    </Toolbar>
+                    </AppBar>
+            </HideOnScroll>
+                    
+                
+            
         </div>
     )
 }

@@ -1,0 +1,16 @@
+.MuiPaper-root {
+  margin: 0 auto;
+  padding: 1%;
+}
+
+div.details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 3%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  max-width: 300px;
+}
+/*# sourceMappingURL=bookFinder.css.map */

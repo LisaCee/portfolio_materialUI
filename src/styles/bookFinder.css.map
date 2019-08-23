@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACb,MAAM,EAAE,MAAM;EACd,OAAO,EAAE,EAAE;CACZ;;AAKD,AAAA,GAAG,AAAA,QAAQ,CAAC;EACV,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,EAAE;EACd,eAAe,EAAE,YAAY;EAC7B,SAAS,EAAE,KAAK;CACjB",
+    "sources": [
+        "bookFinder.scss"
+    ],
+    "names": [],
+    "file": "bookFinder.css"
+}

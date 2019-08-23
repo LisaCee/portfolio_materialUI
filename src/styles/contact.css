@@ -1,9 +1,15 @@
 #formFields {
-  max-width: 60%;
+  margin: 5%;
   font-size: 1rem;
 }
 
 #formFields button {
   margin: 3%;
+}
+
+@media (min-width: 768px) {
+  #formFields {
+    max-width: 60%;
+  }
 }
 /*# sourceMappingURL=contact.css.map */

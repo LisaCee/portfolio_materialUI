@@ -1,7 +1,12 @@
 #formFields {
-  max-width: 60%;
+  margin: 5%;
   font-size: 1rem;
   button {
     margin: 3%;
+  }
+}
+@media (min-width: 768px) {
+  #formFields {
+    max-width: 60%;
   }
 }

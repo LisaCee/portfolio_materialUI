@@ -1,6 +1,7 @@
 import React from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import NavBar from './Components/NavBar';
+import BookFinder from './Components/BookFinder';
 import Contact from './Components/Contact';
 
 
@@ -12,6 +13,7 @@ function App() {
       <CssBaseline/>
       {/* <NavBar /> */}
       <Contact/>
+     <BookFinder />
     </div>
   );
 }
