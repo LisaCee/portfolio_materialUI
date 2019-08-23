@@ -31,7 +31,7 @@ export default function BookFinder() {
         <CardMedia
           className={classes.media}
           image={BookFinderIMG}
-          title="Contemplative Reptile"
+          title="Book Finder"
         />
         <CardContent>
           
