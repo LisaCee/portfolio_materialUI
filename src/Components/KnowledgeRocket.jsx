@@ -12,14 +12,17 @@ import KnowledgeRocketIMG from '../images/knowledge-rocket.gif';
 
 import '../styles/card.css';
 
-const useStyles = makeStyles({
+const useStyles = makeStyles(theme => ({
   card: {
-    maxWidth: 345
+    maxWidth: 345,
+    padding: theme.spacing(2),
+    textAlign: 'center',
+    color: theme.palette.text.secondary
   },
   media: {
     height: 240
   }
-});
+}));
 
 export default function KnowledgeRocket() {
   const classes = useStyles();

@@ -1,9 +1,7 @@
 .MuiPaper-root {
   margin: 0 auto;
   padding: 1%;
-}
-
-h2.MuiTypography-h5 {
+  height: 460px;
 }
 
 div.details {
@@ -11,4 +9,8 @@ div.details {
   margin-top: 3%;
   justify-content: space-evenly;
   max-width: 300px;
+}
+
+button {
+  margin-bottom: 1%;
 }

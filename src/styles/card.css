@@ -1,6 +1,7 @@
 .MuiPaper-root {
   margin: 0 auto;
   padding: 1%;
+  height: 460px;
 }
 
 div.details {
@@ -12,5 +13,9 @@ div.details {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   max-width: 300px;
+}
+
+button {
+  margin-bottom: 1%;
 }
 /*# sourceMappingURL=card.css.map */
