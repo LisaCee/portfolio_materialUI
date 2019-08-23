@@ -5,6 +5,7 @@ import BookFinder from './Components/BookFinder';
 import MovieTM from './Components/MovieTM';
 import Contact from './Components/Contact';
 import KnowledgeRocket from './Components/KnowledgeRocket';
+import LambdaNotes from './Components/LambdaNotes';
 
 
 import './App.css';
@@ -14,10 +15,11 @@ function App() {
     <div className="App">
       <CssBaseline/>
       {/* <NavBar /> */}
-      <Contact/>
      <MovieTM/>
      <BookFinder />
      <KnowledgeRocket />
+     <LambdaNotes />
+      <Contact/>
     </div>
   );
 }
