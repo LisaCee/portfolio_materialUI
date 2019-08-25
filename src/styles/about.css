@@ -1,0 +1,44 @@
+ul li {
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 0 1.6875em 0;
+  padding: 0.35em 0 0 3.5em;
+  position: relative;
+  vertical-align: top;
+  width: 48%;
+  min-height: 3rem;
+}
+
+ul li:before {
+  background: #17a2b8;
+  border-radius: 100%;
+  color: white;
+  display: block;
+  height: 2.5em;
+  left: 0;
+  line-height: 2.5em;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 2.5em;
+}
+
+.fab,
+.fas {
+  font-size: 1rem;
+}
+
+.icon {
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.iconSkills {
+  margin-left: -35px;
+}
+
+ul li:nth-child(even) {
+  margin-left: 1.5%;
+}
+/*# sourceMappingURL=about.css.map */
