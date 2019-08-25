@@ -1,55 +1,25 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-// import List from '@material-ui/core/List';
-// import ListItem from '@material-ui/core/ListItem';
-// import ListItemText from '@material-ui/core/ListItemText';
-import Slide from '@material-ui/core/Slide';
-import useScrollTrigger from '@material-ui/core/useScrollTrigger';
+import '../styles/navbar.css';
+// import Logo from '../images/Logo_Blue_sm.jpg';
+import { Navbar, Nav, Row, Col } from 'react-bootstrap';
 
-const useStyles = makeStyles(theme => ({
-  root: {
-    flexGrow: 1
-  },
-  menuButton: {
-    marginRight: theme.spacing(2)
-  },
-  title: {
-    flexGrow: 1
-  }
-}));
-
-function HideOnScroll(props) {
-  const { children, window } = props;
-  const trigger = useScrollTrigger({ target: window ? window() : undefined });
-
+export default function NavBar() {
   return (
-    <Slide appear={false} direction='down' in={!trigger}>
-      {children}
-    </Slide>
-  );
-}
+    <div id='header'>
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="ml-auto">
+            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
 
-export default function NavBar(props) {
-  const classes = useStyles();
+          </Nav>
 
-  return (
-    <div className={classes.root}>
-      <HideOnScroll {...props}>
-        <AppBar>
-          <Toolbar>
-            {/* <Typography variant='h6'>Lisa Canini</Typography>
-            <Typography variant='h6'>Full Stack Web Developer</Typography> */}
-            <ul>
-              <li>About</li>
+        </Navbar.Collapse>
+      </Navbar>
 
-              <li>Contact</li>
-            </ul>
-          </Toolbar>
-        </AppBar>
-      </HideOnScroll>
     </div>
   );
-}
+};
+

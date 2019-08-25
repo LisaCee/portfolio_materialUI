@@ -14,11 +14,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <CssBaseline/>
+      <CssBaseline />
       <NavBar />
       <Grid container spacing={3}>
         <Grid item xs={12} sm={6} lg xl>
-          <MovieTM/>
+          <MovieTM />
         </Grid>
         <Grid item xs={12} sm={6} lg xl>
           <BookFinder />
@@ -29,10 +29,10 @@ function App() {
         <Grid item xs={12} sm={6} lg xl>
           <LambdaNotes />
         </Grid>
-     </Grid>
+      </Grid>
 
-     <About />
-      <Contact/>
+      <About />
+      <Contact />
     </div>
   );
 }

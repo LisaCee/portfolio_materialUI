@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/about.css';
 
-const About = () => {
+export default function About() {
   return (
     <div>
       <div id='about'>
@@ -48,4 +48,3 @@ const About = () => {
   );
 };
 
-export default About;
