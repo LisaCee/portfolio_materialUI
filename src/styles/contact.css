@@ -1,15 +1,14 @@
-#formFields {
-  margin: 5%;
-  font-size: 1rem;
+.MuiInputBase-formControl {
+  background: white;
 }
 
-#formFields button {
+button.MuiButtonBase-root {
   margin: 3%;
 }
 
 @media (min-width: 768px) {
-  #formFields {
-    max-width: 60%;
+  form {
+    max-width: 70%;
   }
 }
 /*# sourceMappingURL=contact.css.map */

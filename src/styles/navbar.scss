@@ -1,0 +1,31 @@
+$primary: #007388;
+$secondary: #e8f8f4;
+
+.navbar.navbar-light.navbar-light {
+    background-color: $primary !important;
+    margin-bottom: 3%;
+}
+
+img#logo {
+    width: 50%;
+}
+
+div#heading {
+    margin-left: -150px;
+    margin-top: 20px;
+}
+h6, p {
+    font-family: 'Roboto', sans-serif;
+    color: $secondary;
+}
+
+a.nav-link {
+    color: $secondary !important;
+}
+
+@media(min-width: 768px) {
+    div#heading {
+        margin-left: 0;
+    }
+}
+
