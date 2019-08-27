@@ -1,3 +1,5 @@
+@import './variables';
+
 ul li {
   display: inline-block;
   text-decoration: none;
@@ -10,7 +12,7 @@ ul li {
 }
 
 ul li:before {
-  background: #17a2b8;
+  background: $primary;
   border-radius: 100%;
   color: white;
   display: block;

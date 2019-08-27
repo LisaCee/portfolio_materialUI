@@ -37,7 +37,7 @@ export default function BookFinder() {
         title='Lambda Notes'
       />
       <CardContent>
-        <Typography variant='body2' color='textSecondary' component='p'>
+        <Typography variant='grey' color='textSecondary' component='p'>
           A full stack note taking application.
         </Typography>
         <div className='details'>

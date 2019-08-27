@@ -38,7 +38,7 @@ export default function BookFinder() {
       />
 
       <CardContent>
-        <Typography variant='body2' color='textSecondary' component='p'>
+        <Typography variant='grey' component='p'>
           A book searching app created using the Google Books API
         </Typography>
         <div className='details'>

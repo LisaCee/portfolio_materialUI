@@ -1,5 +1,4 @@
-$primary: #007388;
-$secondary: #e8f8f4;
+@import './variables';
 
 .navbar.navbar-light.navbar-light {
     background-color: $primary !important;
@@ -7,25 +6,31 @@ $secondary: #e8f8f4;
 }
 
 img#logo {
-    width: 50%;
+    width: 60px;
 }
-
-div#heading {
-    margin-left: -150px;
-    margin-top: 20px;
-}
-h6, p {
+.MuiTypography-h6, .MuiTypography-body2 {
     font-family: 'Roboto', sans-serif;
-    color: $secondary;
+    color: $secondary !important;
 }
-
+div#heading {
+    margin-left: -20px;
+    align-items: center;
+}
+button.navbar-toggler {
+    background-color: white !important;
+}
 a.nav-link {
     color: $secondary !important;
+    text-align: end;
 }
 
 @media(min-width: 768px) {
+    img#logo {
+        width: 50%;
+    }
     div#heading {
-        margin-left: 0;
+        margin-left: -75px;
+        align-items: center;
     }
 }
 

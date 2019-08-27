@@ -27,7 +27,7 @@ export default function Contact() {
 
   return (
     <div id='formFields'>
-      <Typography variant='h5' >
+      <Typography variant='h5' id="contact">
         Contact Me
                     </Typography>
       <Typography variant='body'>

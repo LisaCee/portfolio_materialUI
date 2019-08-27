@@ -4,26 +4,39 @@
 }
 
 img#logo {
-  width: 50%;
+  width: 60px;
+}
+
+.MuiTypography-h6, .MuiTypography-body2 {
+  font-family: 'Roboto', sans-serif;
+  color: white !important;
 }
 
 div#heading {
-  margin-left: -150px;
-  margin-top: 20px;
+  margin-left: -20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-h6, p {
-  font-family: 'Roboto', sans-serif;
-  color: #e8f8f4;
+button.navbar-toggler {
+  background-color: white !important;
 }
 
 a.nav-link {
-  color: #e8f8f4 !important;
+  color: white !important;
+  text-align: end;
 }
 
 @media (min-width: 768px) {
+  img#logo {
+    width: 50%;
+  }
   div#heading {
-    margin-left: 0;
+    margin-left: -75px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 /*# sourceMappingURL=navbar.css.map */

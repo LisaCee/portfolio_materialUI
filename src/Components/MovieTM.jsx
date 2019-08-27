@@ -38,7 +38,7 @@ export default function BookFinder() {
       />
 
       <CardContent>
-        <Typography variant='body2' color='textSecondary' component='p'>
+        <Typography variant='grey' color='textSecondary' component='p'>
           A time machine app that returns movies from The Movie DB API given a
           search year.
         </Typography>

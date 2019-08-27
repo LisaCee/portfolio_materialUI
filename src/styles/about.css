@@ -10,7 +10,7 @@ ul li {
 }
 
 ul li:before {
-  background: #17a2b8;
+  background: #007388;
   border-radius: 100%;
   color: white;
   display: block;
