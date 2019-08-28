@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
+import Hidden from '@material-ui/core/Hidden';
 import Drawer from '@material-ui/core/Drawer';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -105,7 +106,9 @@ export default function PersistentDrawerRight() {
           <Typography variant='h6' noWrap className={classes.title}>
             Lisa Canini
           </Typography>
-          <Typography variant='body2'>Full Stack Web Developer</Typography>
+          <Hidden xsDown>
+            <Typography variant='body2'>Full Stack Web Developer</Typography>
+          </Hidden>
           <IconButton
             color='inherit'
             aria-label='open drawer'
@@ -144,38 +147,38 @@ export default function PersistentDrawerRight() {
         </div>
         <Divider />
         <List>
-          <ListItem button href='about'>
-            <ListItemIcon>
-              <PersonIcon />
-            </ListItemIcon>
-            <ListItemText primary='About' />
-          </ListItem>
-          <ListItem button>
-            <ListItemIcon>
-              <PhotoLibraryIcon />
-            </ListItemIcon>
-            <ListItemText primary='Gallery' />
-          </ListItem>
-          <ListItem button>
-            <ListItemIcon>
-              <ImportantDevices />
-            </ListItemIcon>
-            <ListItemText primary='Skills' />
-          </ListItem>
-          <ListItem button>
-            <ListItemIcon>
-              <MailIcon />
-            </ListItemIcon>
-            <ListItemText primary='Contact' />
-          </ListItem>
-          {/* {["About", "Skills", "Contact"].map((text, index) => (
-            <ListItem button key={text}>
+          <a href='#intro'>
+            <ListItem button>
               <ListItemIcon>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
+                <PersonIcon />
               </ListItemIcon>
-              <ListItemText primary={text} />
+              <ListItemText primary='About' />
             </ListItem>
-          ))} */}
+          </a>
+          <a href='gallery'>
+            <ListItem button>
+              <ListItemIcon>
+                <PhotoLibraryIcon />
+              </ListItemIcon>
+              <ListItemText primary='Gallery' />
+            </ListItem>
+          </a>
+          <a href='#skills'>
+            <ListItem button>
+              <ListItemIcon>
+                <ImportantDevices />
+              </ListItemIcon>
+              <ListItemText primary='Skills' />
+            </ListItem>
+          </a>
+          <a href='#contact'>
+            <ListItem button>
+              <ListItemIcon>
+                <MailIcon />
+              </ListItemIcon>
+              <ListItemText primary='Contact' />
+            </ListItem>
+          </a>
         </List>
       </Drawer>
     </div>

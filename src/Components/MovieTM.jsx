@@ -28,7 +28,7 @@ export default function BookFinder() {
   const classes = useStyles();
 
   return (
-    <Card className={classes.card}>
+    <Card className={classes.card} id='gallery'>
       <CardHeader title='Movie Time Machine' />
 
       <CardMedia

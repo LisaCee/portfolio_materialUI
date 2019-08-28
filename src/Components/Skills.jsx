@@ -1,10 +1,10 @@
 import React from 'react';
-import '../styles/about.css';
+import '../styles/skills.css';
 
-export default function About() {
+export default function Skills() {
   return (
     <div>
-      <div id='about'>
+      <div id='skills'>
         <p></p>
         <div>
           <h3>Skills</h3>

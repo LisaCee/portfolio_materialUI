@@ -1,6 +1,17 @@
 #intro {
   height: auto;
+  margin-bottom: 12px;
+  display: flex;
+  h3 {
+    align-items: center !important;
+  }
 }
-img#logo {
-  margin: 0 auto;
+div img#logo {
+  width: 40%;
+}
+
+@media (min-width: 768px) {
+  img#logo {
+    margin: auto 20px;
+  }
 }
