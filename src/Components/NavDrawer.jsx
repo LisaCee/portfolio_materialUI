@@ -155,7 +155,7 @@ export default function PersistentDrawerRight() {
               <ListItemText primary='About' />
             </ListItem>
           </a>
-          <a href='gallery'>
+          <a href='#gallery'>
             <ListItem button>
               <ListItemIcon>
                 <PhotoLibraryIcon />
