@@ -1,0 +1,10 @@
+header.MuiPaper-root {
+  height: auto;
+}
+
+.MuiTypography-h6,
+.MuiTypography-body2 {
+  font-family: 'Roboto', sans-serif;
+  color: white !important;
+}
+/*# sourceMappingURL=navDrawer.css.map */

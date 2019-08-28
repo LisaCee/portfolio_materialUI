@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,MAAM,AAAA,cAAc,CAAC;EACnB,MAAM,EAAE,IAAI;CACb;;AAED,AAAA,iBAAiB;AACjB,oBAAoB,CAAC;EACnB,WAAW,EAAE,oBAAoB;EACjC,KAAK,ECRK,KAAK,CDQG,UAAU;CAC7B",
+    "sources": [
+        "navDrawer.scss",
+        "_variables.scss"
+    ],
+    "names": [],
+    "file": "navDrawer.css"
+}
