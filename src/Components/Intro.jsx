@@ -23,11 +23,13 @@ export default function Intro() {
             <Typography variant='h5' component='h3' align='center'>
               Hi. I'm Lisa Cee.
             </Typography>
-            <img src={Logo} alt='logo' id='logo' align='center' />
+          </Grid>
+          <Grid item xs={12} sm md={6} lg xl>
+            <img src={Logo} alt='logo' id='logo' justify='center' />
           </Grid>
           <Grid item xs={12} sm={6} lg xl></Grid>
           <Grid item xs={12} sm={8} lg xl>
-            <Typography component='p'>
+            <Typography component='p' align='justify'>
               I am a full stack developer passionate about creating websites
               that remove barriers to accessing information and make that
               information readily available to everyone. I am experienced with

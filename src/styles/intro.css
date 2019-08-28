@@ -1,24 +1,10 @@
 #intro {
   height: auto;
   margin-bottom: 12px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
-#intro h3 {
-  -webkit-box-align: center !important;
-      -ms-flex-align: center !important;
-          align-items: center !important;
-}
-
-div img#logo {
+img#logo {
   width: 40%;
-}
-
-@media (min-width: 768px) {
-  img#logo {
-    margin: auto 20px;
-  }
+  margin-left: 29%;
 }
 /*# sourceMappingURL=intro.css.map */
