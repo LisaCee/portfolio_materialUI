@@ -20,10 +20,10 @@ export default function Intro() {
       <Paper className={classes.root} id='intro'>
         <Grid container spacing={3}>
           <Grid item xs={12} sm md={6} lg xl>
-            <Typography variant='h5' component='h3'>
+            <Typography variant='h5' component='h3' align='center'>
               Hi. I'm Lisa Cee.
             </Typography>
-            <img src={Logo} alt='logo' id='logo' />
+            <img src={Logo} alt='logo' id='logo' align='center' />
           </Grid>
           <Grid item xs={12} sm={6} lg xl></Grid>
           <Grid item xs={12} sm={8} lg xl>
