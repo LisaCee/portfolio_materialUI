@@ -11,6 +11,10 @@ ul li {
   min-height: 3rem;
 }
 
+.dividerMargin {
+  margin-top: 50px !important;
+}
+
 ul li:before {
   background: $primary;
   border-radius: 100%;

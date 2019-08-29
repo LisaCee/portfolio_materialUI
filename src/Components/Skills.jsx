@@ -1,19 +1,23 @@
 import React from 'react';
+import Typography from '@material-ui/core/Typography';
+import Divider from '@material-ui/core/Divider';
 import '../styles/skills.css';
 
 export default function Skills() {
   return (
     <div>
       <div id='skills'>
-        <p></p>
+        <Divider className='dividerMargin' />
         <div>
-          <h3>Skills</h3>
-          <p>
+          <Typography variant='h5' id='contact'>
+            Skills
+          </Typography>
+          <Typography variant='body1'>
             Lisa is a valuable member of any team. She has great curiosity and
             the resolve to find solutions. While her focus is in front end
             development, Lisa has a full stack education in order to better
             understand what makes a site work and how she can make it better.
-          </p>
+          </Typography>
           <ul className='iconSkills'>
             <li className='fab fa-react'>
               <span className='icon'>React</span>

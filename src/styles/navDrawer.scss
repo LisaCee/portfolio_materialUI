@@ -7,5 +7,16 @@ header.MuiPaper-root {
 .MuiTypography-h6,
 .MuiTypography-body2 {
   font-family: 'Roboto', sans-serif;
-  color: $secondary !important;
+}
+
+.MuiAppBar-colorPrimary {
+  background-color: $primary !important;
+}
+
+svg.MuiSvgIcon-root {
+  color: $primary;
+}
+
+#hamburger {
+  color: white !important;
 }

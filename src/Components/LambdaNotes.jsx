@@ -37,8 +37,8 @@ export default function BookFinder() {
         title='Lambda Notes'
       />
       <CardContent>
-        <Typography variant='grey' color='textSecondary' component='p'>
-          A full stack note taking application.
+        <Typography color='textSecondary' component='p'>
+          A full stack note taking application with persistent storage.
         </Typography>
         <div className='details'>
           <i className='fab fa-react fa-lg' />

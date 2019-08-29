@@ -1,10 +1,40 @@
 #intro {
   height: auto;
   margin-bottom: 12px;
+  background: #ffffff;
+  max-width: 345px;
+}
+
+#intro p {
+  padding: 1%;
+  line-height: 1.5rem;
 }
 
 img#logo {
   width: 40%;
   margin-left: 29%;
+}
+
+#headline {
+  margin-bottom: 5%;
+}
+
+@media (min-width: 600px) {
+  #intro {
+    max-width: 96%;
+  }
+  img#logo {
+    width: 90%;
+    margin-left: 8%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  #intro {
+    max-width: 95%;
+  }
 }
 /*# sourceMappingURL=intro.css.map */

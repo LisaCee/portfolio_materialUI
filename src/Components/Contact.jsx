@@ -1,5 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
+import Divider from '@material-ui/core/Divider';
 import Typography from '@material-ui/core/Typography';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
@@ -27,10 +28,11 @@ export default function Skills() {
 
   return (
     <div id='formFields'>
+      <Divider />
       <Typography variant='h5' id='contact'>
         Contact Me
       </Typography>
-      <Typography variant='body'>
+      <Typography variant='body1'>
         Whether you wish to work with me or just want to chat about Prince or
         programming, I'd love to hear from you.
       </Typography>
@@ -89,8 +91,9 @@ export default function Skills() {
         <Button
           type='submit'
           className='primary submit'
-          color='primary'
           variant='contained'
+          id='submit'
+          color='primary'
         >
           Submit
         </Button>

@@ -1,8 +1,38 @@
+@import './variables';
+
 #intro {
   height: auto;
   margin-bottom: 12px;
+  background: $secondaryLight;
+  max-width: 345px;
+
+  p {
+    padding: 1%;
+    line-height: 1.5rem;
+  }
 }
 img#logo {
   width: 40%;
   margin-left: 29%;
+}
+#headline {
+  margin-bottom: 5%;
+}
+
+@media (min-width: 600px) {
+  #intro {
+    max-width: 96%;
+  }
+
+  img#logo {
+    width: 90%;
+    margin-left: 8%;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  #intro {
+    max-width: 95%;
+  }
 }
