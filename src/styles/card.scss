@@ -5,12 +5,19 @@
   padding: 1%;
   height: 500px;
 }
-
+.MuiCardHeader-title {
+  color: $primary;
+}
 div.details {
   display: flex;
   margin-top: 3%;
   justify-content: space-evenly;
   max-width: 300px;
+  .fab,
+  .fas {
+    color: $primary;
+    font-size: 1.5rem;
+  }
 }
 
 button {

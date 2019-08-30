@@ -42,6 +42,9 @@ ul li:before {
 
 .iconSkills {
   margin-left: -35px;
+  span.icon {
+    display: inherit;
+  }
 }
 
 ul li:nth-child(even) {

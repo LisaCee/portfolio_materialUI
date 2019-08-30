@@ -4,6 +4,10 @@
   height: 500px;
 }
 
+.MuiCardHeader-title {
+  color: #1a237e;
+}
+
 div.details {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13,6 +17,12 @@ div.details {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   max-width: 300px;
+}
+
+div.details .fab,
+div.details .fas {
+  color: #1a237e;
+  font-size: 1.5rem;
 }
 
 button {
