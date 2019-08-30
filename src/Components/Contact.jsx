@@ -108,6 +108,20 @@ export default function Skills() {
             Reset
           </Button>
         </form>
+        <div id='social'>
+          <li className='fab fa-github'>
+            <span className='icon'>Github</span>
+          </li>
+          <li className='fab fa-linkedin-in'>
+            <span className='icon'>LinkedIn</span>
+          </li>
+          <li className='fab fa-twitter'>
+            <span className='icon'>Twitter</span>
+          </li>
+          <li className='fab fa-envelope'>
+            <span className='icon'>Mail</span>
+          </li>
+        </div>
       </div>
     </Container>
   );
