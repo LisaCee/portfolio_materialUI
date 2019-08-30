@@ -14,6 +14,14 @@ button#submit.MuiButtonBase-root.primary.submit.MuiButton-contained {
 .MuiButton-containedSecondary {
   background-color: $secondaryDark !important;
 }
+#social li.fab,
+#social li.fas {
+  margin: 3%;
+  font-size: 2rem;
+}
+#social span {
+  display: none;
+}
 
 @media (min-width: 768px) {
   form {

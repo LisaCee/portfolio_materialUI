@@ -109,18 +109,38 @@ export default function Skills() {
           </Button>
         </form>
         <div id='social'>
-          <li className='fab fa-github'>
-            <span className='icon'>Github</span>
-          </li>
-          <li className='fab fa-linkedin-in'>
-            <span className='icon'>LinkedIn</span>
-          </li>
-          <li className='fab fa-twitter'>
-            <span className='icon'>Twitter</span>
-          </li>
-          <li className='fab fa-envelope'>
-            <span className='icon'>Mail</span>
-          </li>
+          <a
+            href='https://www.github.com/lisacee'
+            target='_'
+            rel='noopener noreferrer'
+          >
+            <li className='fab fa-github'>
+              <span className='icon'>Github</span>
+            </li>
+          </a>
+          <a
+            href='https://www.linkedin.com/in/lisacee'
+            target='_'
+            rel='noopener noreferrer'
+          >
+            <li className='fab fa-linkedin-in'>
+              <span className='icon'>LinkedIn</span>
+            </li>
+          </a>
+          <a
+            href='https://www.twitter.com/lisacee14'
+            target='_'
+            rel='noopener noreferrer'
+          >
+            <li className='fab fa-twitter'>
+              <span className='icon'>Twitter</span>
+            </li>
+          </a>
+          <a href='mailto:lisaceedesign@gmail.com?Subject=Hello'>
+            <li className='fas fa-envelope'>
+              <span className='icon'>Mail</span>
+            </li>
+          </a>
         </div>
       </div>
     </Container>
