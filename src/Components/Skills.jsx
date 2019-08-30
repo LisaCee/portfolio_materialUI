@@ -1,11 +1,12 @@
 import React from 'react';
+import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
 import '../styles/skills.css';
 
 export default function Skills() {
   return (
-    <div>
+    <Container>
       <div id='skills'>
         <Divider className='dividerMargin' />
         <div>
@@ -40,6 +41,6 @@ export default function Skills() {
           </ul>
         </div>
       </div>
-    </div>
+    </Container>
   );
 }

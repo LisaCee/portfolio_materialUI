@@ -19,18 +19,13 @@ export default function Intro() {
     <div>
       <Paper className={classes.root} id='intro'>
         <Grid container spacing={3}>
-          <Grid item xs={12} sm={4} md lg xl>
+          <Grid item xs={12} sm={4} md={3} lg xl={1}>
             {/* <Grid item xs={12} sm={6} md lg xl> */}
             <img src={Logo} alt='logo' id='logo' justify='center' />
             {/* </Grid> */}
           </Grid>
-          <Grid item xs={12} sm={8} md lg xl>
-            <Typography
-              variant='h5'
-              component='h3'
-              align='center'
-              id='headline'
-            >
+          <Grid item xs={12} sm={8} md={9} lg xl={10} alignContent='center'>
+            <Typography variant='h5' component='h3' align='left' id='headline'>
               Hi. I'm Lisa Cee.
             </Typography>
             <Typography component='p' align='left' id='body'>
