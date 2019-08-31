@@ -29,14 +29,20 @@ export default function Skills() {
             <li className='fas fa-code'>
               <span className='icon'>HTML & CSS</span>
             </li>
-            <li className='fab fa-google'>
-              <span className='icon'>Excellent Google-fu</span>
+            <li className='fab fa-sass'>
+              <span className='icon'>Sass</span>
             </li>
             <li className='fab fa-js-square'>
               <span className='icon'>JavaScript</span>
             </li>
             <li className='fas fa-music'>
               <span className='icon'>Prince fan</span>
+            </li>
+            <li className='fab fa-python'>
+              <span className='icon'>Python</span>
+            </li>
+            <li className='fab fa-node-js'>
+              <span className='icon'>Node.js</span>
             </li>
           </ul>
         </div>

@@ -41,11 +41,11 @@ export default function BookFinder() {
           A full stack note taking application with persistent storage.
         </Typography>
         <div className='details'>
-          <i className='fab fa-react fa-lg' />
-          <i className='fab fa-less fa-lg' />
-          <i className='fab fa-bootstrap fa-lg' />
-          <i className='fab fa-github fa-lg' />
-          <i className='fab fa-python fa-lg' />
+          <i className='fab fa-react fa-lg' title='react' />
+          <i className='fab fa-less fa-lg' title='less' />
+          <i className='fab fa-bootstrap fa-lg' title='bootstrap' />
+          <i className='fab fa-github fa-lg' title='github' />
+          <i className='fab fa-python fa-lg' title='python' />
         </div>
       </CardContent>
 

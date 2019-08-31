@@ -44,10 +44,10 @@ export default function BookFinder() {
         <br />
         <div className='details'>
           <i className='fab fa-react fa-lg' title='react' />
-          <i className='fab fa-css3 fa-lg' />
-          <i className='fab fa-bootstrap fa-lg' />
-          <i className='fab fa-google fa-lg' />
-          <i className='fab fa-github fa-lg' />
+          <i className='fab fa-css3 fa-lg' title='css3' />
+          <i className='fab fa-bootstrap fa-lg' title='bootstrap' />
+          <i className='fab fa-google fa-lg' title='google books api' />
+          <i className='fab fa-github fa-lg' title='github' />
         </div>
       </CardContent>
 

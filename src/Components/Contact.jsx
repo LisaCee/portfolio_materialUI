@@ -138,7 +138,7 @@ export default function Skills() {
               </li>
             </a>
             <a href='mailto:lisaceedesign@gmail.com?Subject=Hello'>
-              <li className='fas fa-envelope'>
+              <li className='fas fa-envelope' title='lisaceedesign@gmail.com'>
                 <span className='icon'>Mail</span>
               </li>
             </a>

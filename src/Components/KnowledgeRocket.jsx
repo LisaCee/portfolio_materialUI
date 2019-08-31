@@ -42,11 +42,11 @@ export default function KnowledgeRocket() {
           A full stack web application for educators created with a small team.
         </Typography>
         <div className='details'>
-          <i className='fab fa-react fa-lg' />
-          <i className='fab fa-css3 fa-lg' />
-          <i className='fab fa-bootstrap fa-lg' />
-          <i className='fab fa-github fa-lg' />
-          <i className='fab fa-python fa-lg' />
+          <i className='fab fa-react fa-lg' title='react' />
+          <i className='fab fa-css3 fa-lg' title='css3' />
+          <i className='fab fa-bootstrap fa-lg' title='boostrap' />
+          <i className='fab fa-github fa-lg' title='github' />
+          <i className='fab fa-python fa-lg' title='python' />
         </div>
       </CardContent>
 

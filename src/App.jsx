@@ -14,8 +14,8 @@ function App() {
       <CssBaseline />
       <NavDrawer />
       <Intro />
-      <Gallery />
       <Skills />
+      <Gallery />
       <Contact />
     </div>
   );
