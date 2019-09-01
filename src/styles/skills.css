@@ -3,12 +3,11 @@ h5 {
 }
 
 #skills p {
-  margin: 2% 0;
+  margin: 3% 0;
 }
 
 #skills ul {
-  padding-left: 85px !important;
-  padding-right: 85px !important;
+  padding: 0px;
 }
 
 ul li {
@@ -48,7 +47,7 @@ ul li:before {
 }
 
 .iconSkills span.icon {
-  display: inherit;
+  display: inline-block;
 }
 
 ul li:nth-child(even) {
@@ -59,6 +58,10 @@ ul li:nth-child(even) {
   .MuiContainer-root {
     padding-left: 160px !important;
     padding-right: 95px !important;
+  }
+  #skills ul {
+    padding-left: 85px !important;
+    padding-right: 85px !important;
   }
 }
 /*# sourceMappingURL=skills.css.map */

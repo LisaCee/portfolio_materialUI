@@ -5,6 +5,7 @@ import Intro from './Components/Intro';
 import Gallery from './Components/Gallery';
 import Skills from './Components/Skills';
 import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 import './App.css';
 
@@ -17,6 +18,7 @@ function App() {
       <Skills />
       <Gallery />
       <Contact />
+      <Footer />
     </div>
   );
 }

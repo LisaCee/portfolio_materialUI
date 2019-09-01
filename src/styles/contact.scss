@@ -14,33 +14,8 @@ button#submit.MuiButtonBase-root.primary.submit.MuiButton-contained {
 .MuiButton-containedSecondary {
   background-color: $secondaryDark !important;
 }
-#social ul {
-  padding: 0px;
-  list-style-type: none;
-  margin: 2% 0px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-#social li.fab::before,
-#social li.fas::before {
-  font-size: inherit;
-  display: inline;
-}
-#social span {
-  display: none;
-}
-
 @media (min-width: 768px) {
   form {
     max-width: 70%;
-  }
-  #social ul {
-    justify-content: flex-start;
-  }
-  #social li.fab,
-  #social li.fas {
-    margin: 3%;
-    display: inline;
   }
 }
