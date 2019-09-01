@@ -6,6 +6,8 @@
 
 .MuiCardHeader-title {
   color: #17a2b8;
+  margin-left: -15px !important;
+  font-family: 'Raleway', sans-serif;
 }
 
 div.details {

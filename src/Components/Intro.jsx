@@ -22,14 +22,23 @@ export default function Intro() {
           <Grid item xs={12} sm={4} md={3} lg xl={1}>
             <img src={Logo} alt='logo' id='logo' justify='center' />
           </Grid>
-          <Grid item xs={12} sm={8} md={9} lg xl={10} alignContent='center'>
+          <Grid
+            item
+            xs={12}
+            sm={8}
+            md={9}
+            lg
+            xl={10}
+            alignContent='center'
+            justify='baseline'
+          >
             <Typography variant='h5' component='h3' align='left' id='headline'>
-              Hi. I'm Lisa Canini.
+              Lisa Canini
             </Typography>
             <Typography component='p' align='left' id='body'>
-              I am a full stack developer passionate about creating websites
-              that remove barriers to accessing information and make that
-              information readily available to everyone.
+              Passionate full stack developer, creating websites that remove
+              barriers to accessing information and make that information
+              readily available to everyone.
             </Typography>
           </Grid>
         </Grid>

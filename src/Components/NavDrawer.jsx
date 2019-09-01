@@ -147,7 +147,7 @@ export default function PersistentDrawerRight() {
           </IconButton>
         </div>
         <Divider />
-        <List>
+        <List className='navList'>
           <a href='#intro'>
             <ListItem button>
               <ListItemIcon>

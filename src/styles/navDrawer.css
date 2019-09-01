@@ -26,28 +26,4 @@ svg.MuiSvgIcon-root {
 #hamburger {
   color: white !important;
 }
-
-.socialNav ul {
-  margin-top: 450px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 100%;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.socialNav li::before {
-  background-color: #cfd8dc;
-  font-size: 1rem;
-}
-
-.socialNav li::before:hover {
-  color: #17a2b8 !important;
-}
 /*# sourceMappingURL=navDrawer.css.map */

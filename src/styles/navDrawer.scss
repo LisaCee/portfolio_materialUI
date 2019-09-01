@@ -25,18 +25,18 @@ svg.MuiSvgIcon-root {
 #hamburger {
   color: white !important;
 }
-.socialNav ul {
-  margin-top: 450px;
-  display: flex;
-  min-height: 100%;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-.socialNav li::before {
-  background-color: $secondary;
-  font-size: 1rem;
-}
+// .socialNav ul {
+//   margin-top: 450px;
+//   display: flex;
+//   min-height: 100%;
+//   flex-direction: row;
+//   justify-content: flex-end;
+// }
+// .socialNav li::before {
+//   background-color: $secondary;
+//   font-size: 1rem;
+// }
 
-.socialNav li::before:hover {
-  color: $primary !important;
-}
+// .socialNav li::before:hover {
+//   color: $primary !important;
+// }

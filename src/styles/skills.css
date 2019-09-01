@@ -2,8 +2,9 @@
   margin: 2% 0;
 }
 
-ul {
-  padding: 0px;
+#skills ul {
+  padding-left: 85px !important;
+  padding-right: 85px !important;
 }
 
 ul li {
@@ -52,5 +53,12 @@ ul li:before {
 
 ul li:nth-child(even) {
   margin-left: 1.5%;
+}
+
+@media (min-width: 960px) {
+  .MuiContainer-root {
+    padding-left: 160px !important;
+    padding-right: 95px !important;
+  }
 }
 /*# sourceMappingURL=skills.css.map */
