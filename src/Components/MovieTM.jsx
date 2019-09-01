@@ -40,6 +40,7 @@ export default function BookFinder() {
         <Typography color='textSecondary' component='p'>
           A time machine app that searches for movies by year
         </Typography>
+        <br />
         <div className='details'>
           <i className='fab fa-react fa-lg' title='react' />
           <i className='fab fa-css3 fa-lg' title='css3' />

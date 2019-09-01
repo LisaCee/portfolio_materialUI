@@ -3,7 +3,7 @@
 .MuiPaper-root {
   margin: 0 auto;
   padding: 1%;
-  height: 500px;
+  height: 525px;
 }
 .MuiCardHeader-title {
   color: $primaryDark;
@@ -15,6 +15,7 @@ div.details {
   margin-top: 3%;
   justify-content: space-evenly;
   max-width: 300px;
+  height: 1.5rem;
   .fab,
   .fas {
     color: $primary;

@@ -37,9 +37,10 @@ export default function KnowledgeRocket() {
       />
 
       <CardContent>
-        <Typography color='textSecondary' component='body1'>
-          A full stack web application for educators created with a small team.
+        <Typography color='textSecondary' component='p'>
+          A full stack app created for educators by a small team
         </Typography>
+        <br />
         <div className='details'>
           <i className='fab fa-react fa-lg' title='react' />
           <i className='fab fa-css3 fa-lg' title='css3' />

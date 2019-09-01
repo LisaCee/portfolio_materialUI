@@ -15,10 +15,10 @@ export default function Gallery() {
           <MovieTM />
         </Grid>
         <Grid item xs={12} sm={6}>
-          <BookFinder />
+          <KnowledgeRocket />
         </Grid>
         <Grid item xs={12} sm={6}>
-          <KnowledgeRocket />
+          <BookFinder />
         </Grid>
         <Grid item xs={12} sm={6}>
           <LambdaNotes />

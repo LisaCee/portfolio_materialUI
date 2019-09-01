@@ -37,8 +37,9 @@ export default function BookFinder() {
       />
       <CardContent>
         <Typography color='textSecondary' component='p'>
-          A full stack note taking application with persistent storage.
+          A full stack note taking app with persistent storage
         </Typography>
+        <br />
         <div className='details'>
           <i className='fab fa-react fa-lg' title='react' />
           <i className='fab fa-less fa-lg' title='less' />
