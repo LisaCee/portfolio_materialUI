@@ -8,11 +8,11 @@ header.MuiPaper-root {
 }
 
 .MuiAppBar-colorPrimary {
-  background-color: #1a237e !important;
+  background-color: #17a2b8 !important;
 }
 
 svg.MuiSvgIcon-root {
-  color: #1a237e;
+  color: #17a2b8;
 }
 
 .socialNav span.icon {
@@ -44,6 +44,6 @@ svg.MuiSvgIcon-root {
 }
 
 .socialNav li::before:hover {
-  color: #1a237e !important;
+  color: #17a2b8 !important;
 }
 /*# sourceMappingURL=navDrawer.css.map */

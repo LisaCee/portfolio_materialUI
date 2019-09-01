@@ -30,7 +30,7 @@ export default function Skills() {
   return (
     <Container>
       <div id='contactForm'>
-        <Divider />
+        <Divider className='dividerMargin' />
         <Typography variant='h5' id='contact'>
           Contact Me
         </Typography>
@@ -108,6 +108,7 @@ export default function Skills() {
             Reset
           </Button>
         </form>
+
         <div id='social'>
           <ul>
             <a

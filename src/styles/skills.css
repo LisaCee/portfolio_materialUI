@@ -10,11 +10,11 @@ ul li {
 }
 
 .dividerMargin {
-  margin-top: 50px !important;
+  margin: 35px 0 !important;
 }
 
 ul li:before {
-  background: #1a237e;
+  background: #17a2b8;
   border-radius: 100%;
   color: white;
   display: block;

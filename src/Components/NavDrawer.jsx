@@ -179,7 +179,7 @@ export default function PersistentDrawerRight() {
               <ListItemText primary='Contact' />
             </ListItem>
           </a>
-          <Divider />
+          {/* <Divider />
           <div className='socialNav'>
             <ul>
               <a
@@ -215,7 +215,7 @@ export default function PersistentDrawerRight() {
                 </li>
               </a>
             </ul>
-          </div>
+          </div> */}
         </List>
       </Drawer>
     </div>
