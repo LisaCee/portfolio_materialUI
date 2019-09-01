@@ -16,7 +16,7 @@ const useStyles = makeStyles(theme => ({
   card: {
     maxWidth: 345,
     padding: theme.spacing(2),
-    textAlign: 'center',
+    // textAlign: 'center',
     color: theme.palette.text.secondary
   },
   media: {
@@ -52,7 +52,7 @@ export default function BookFinder() {
       </CardContent>
 
       <CardActions>
-        <Button size='small' color='primary'>
+        <Button size='small'>
           <a
             href='https://lisacee-book-finder.netlify.com/'
             target='_blank'

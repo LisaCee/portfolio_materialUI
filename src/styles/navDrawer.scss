@@ -19,6 +19,9 @@ svg.MuiSvgIcon-root {
 .socialNav span.icon {
   display: none;
 }
+#navButton {
+  background-color: $primaryDark !important;
+}
 #hamburger {
   color: white !important;
 }

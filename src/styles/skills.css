@@ -1,3 +1,11 @@
+#skills p {
+  margin: 2% 0;
+}
+
+ul {
+  padding: 0px;
+}
+
 ul li {
   display: inline-block;
   text-decoration: none;
@@ -36,10 +44,6 @@ ul li:before {
   font-family: sans-serif;
   font-weight: normal;
   font-size: 1rem;
-}
-
-.iconSkills {
-  margin-left: -35px;
 }
 
 .iconSkills span.icon {

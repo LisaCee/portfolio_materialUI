@@ -22,4 +22,8 @@ div.details {
 
 button {
   margin-bottom: 1%;
+  background-color: $secondary !important;
+}
+button span.MuiButton-label a {
+  color: $primary !important;
 }

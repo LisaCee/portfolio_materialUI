@@ -115,6 +115,7 @@ export default function PersistentDrawerRight() {
             edge='end'
             onClick={handleDrawerOpen}
             className={clsx(open && classes.hide)}
+            id='navButton'
           >
             <MenuIcon id='hamburger' />
           </IconButton>

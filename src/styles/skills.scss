@@ -1,5 +1,11 @@
 @import './variables';
 
+#skills p {
+  margin: 2% 0;
+}
+ul {
+  padding: 0px;
+}
 ul li {
   display: inline-block;
   text-decoration: none;
@@ -41,9 +47,9 @@ ul li:before {
 }
 
 .iconSkills {
-  margin-left: -35px;
   span.icon {
     display: inherit;
+    // font-size: smaller;
   }
 }
 

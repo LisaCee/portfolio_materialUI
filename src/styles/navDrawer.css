@@ -19,6 +19,10 @@ svg.MuiSvgIcon-root {
   display: none;
 }
 
+#navButton {
+  background-color: #007388 !important;
+}
+
 #hamburger {
   color: white !important;
 }

@@ -10,9 +10,7 @@ export default function Skills() {
       <div id='skills'>
         <Divider className='dividerMargin' />
         <div>
-          <Typography variant='h5' id='contact'>
-            Skills
-          </Typography>
+          <Typography variant='h5'>Skills</Typography>
           <Typography variant='body1'>
             Lisa is a valuable member of any team. She has great curiosity and
             the resolve to find solutions. While her focus is in front end

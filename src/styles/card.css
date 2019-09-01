@@ -27,5 +27,10 @@ div.details .fas {
 
 button {
   margin-bottom: 1%;
+  background-color: #cfd8dc !important;
+}
+
+button span.MuiButton-label a {
+  color: #17a2b8 !important;
 }
 /*# sourceMappingURL=card.css.map */
