@@ -5,7 +5,7 @@
 }
 
 .MuiCardHeader-title {
-  color: #17a2b8;
+  color: #007388;
   margin-left: -15px !important;
   font-family: 'Raleway', sans-serif;
 }
@@ -29,10 +29,10 @@ div.details .fas {
 
 button {
   margin-bottom: 1%;
-  background-color: #cfd8dc !important;
+  background-color: rgba(0, 0, 0, 0.08) !important;
 }
 
 button span.MuiButton-label a {
-  color: #17a2b8 !important;
+  color: #007388 !important;
 }
 /*# sourceMappingURL=card.css.map */

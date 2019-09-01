@@ -12,7 +12,15 @@ header.MuiPaper-root {
 }
 
 svg.MuiSvgIcon-root {
-  color: #17a2b8;
+  color: #007388;
+}
+
+.MuiListItemText-root {
+  color: #007388;
+}
+
+.MuiButtonBase-Root.MuiListItem-button:hover {
+  background: #17a2b8;
 }
 
 .socialNav span.icon {

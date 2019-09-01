@@ -6,7 +6,7 @@
   height: 500px;
 }
 .MuiCardHeader-title {
-  color: $primary;
+  color: $primaryDark;
   margin-left: -15px !important;
   font-family: 'Raleway', sans-serif;
 }
@@ -27,5 +27,5 @@ button {
   background-color: $secondary !important;
 }
 button span.MuiButton-label a {
-  color: $primary !important;
+  color: $primaryDark !important;
 }

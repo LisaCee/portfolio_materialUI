@@ -38,8 +38,7 @@ export default function BookFinder() {
 
       <CardContent>
         <Typography color='textSecondary' component='p'>
-          A time machine app that returns movies from The Movie DB API given a
-          search year.
+          A time machine app that searches for movies by year
         </Typography>
         <div className='details'>
           <i className='fab fa-react fa-lg' title='react' />

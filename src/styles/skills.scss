@@ -1,5 +1,8 @@
 @import './variables';
 
+h5 {
+  color: $primaryDark;
+}
 #skills p {
   margin: 2% 0;
 }
@@ -16,10 +19,6 @@ ul li {
   vertical-align: top;
   width: 48%;
   min-height: 3rem;
-}
-
-.dividerMargin {
-  margin: 35px 0 !important;
 }
 
 ul li:before {

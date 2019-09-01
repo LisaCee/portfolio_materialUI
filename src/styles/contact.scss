@@ -35,6 +35,9 @@ button#submit.MuiButtonBase-root.primary.submit.MuiButton-contained {
   form {
     max-width: 70%;
   }
+  #social ul {
+    justify-content: flex-start;
+  }
   #social li.fab,
   #social li.fas {
     margin: 3%;

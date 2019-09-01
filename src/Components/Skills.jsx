@@ -1,14 +1,13 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
-import Divider from '@material-ui/core/Divider';
+
 import '../styles/skills.css';
 
 export default function Skills() {
   return (
     <Container>
       <div id='skills'>
-        <Divider className='dividerMargin' />
         <div>
           <Typography variant='h5'>Skills</Typography>
           <Typography variant='body1'>
