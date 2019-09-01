@@ -39,6 +39,8 @@ export default function Footer() {
             </li>
           </a>
         </ul>
+        <p>Made with React, Flexbox, Material-UI and Love</p>
+        <p>&#169; Lisa Canini 2019</p>
       </div>
     </div>
   );

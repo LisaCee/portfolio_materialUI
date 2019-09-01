@@ -41,9 +41,6 @@ export default function Skills() {
             <li className='fab fa-node-js'>
               <span className='icon'>Node.js</span>
             </li>
-            <li className='fab fa-node-js'>
-              <span className='icon'>Node.js</span>
-            </li>
           </ul>
         </div>
       </div>
