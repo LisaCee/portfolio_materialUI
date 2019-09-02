@@ -1,4 +1,6 @@
 import React from 'react';
+import Hidden from '@material-ui/core/Hidden';
+import Typography from '@material-ui/core/Typography';
 import '../styles/footer.css';
 
 export default function Footer() {
@@ -39,8 +41,14 @@ export default function Footer() {
             </li>
           </a>
         </ul>
-        <p>Made with React, Flexbox, Material-UI and Love</p>
-        <p>&#169; Lisa Canini 2019</p>
+        <Hidden xsDown>
+          <Typography component='p' align='center' display='inline-block'>
+            Made with React, Flexbox, Material-UI and Love
+          </Typography>
+        </Hidden>
+        <Typography component='p' align='center' display='inline-block'>
+          Lisa Canini 2019&#169;
+        </Typography>
       </div>
     </div>
   );

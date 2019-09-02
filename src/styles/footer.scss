@@ -8,6 +8,7 @@
   justify-content: space-around;
   padding: 1%;
   list-style-type: none;
+  margin-left: 15px;
 }
 #social ul li {
   margin: 2% auto;
@@ -16,6 +17,7 @@
 #social li.fas::before {
   margin-top: 2%;
   font-size: inherit;
+  background-color: $secondaryDark;
 }
 #social span {
   display: none;
@@ -23,16 +25,22 @@
 
 #social p {
   color: $secondaryDark;
-  margin-left: 30%;
 }
 
 @media (min-width: 768px) {
   #social ul {
-    justify-content: flex-start;
+    width: 70%;
+    margin: 2% auto;
   }
   #social li.fab,
   #social li.fas {
     margin: 3%;
     display: inline;
+  }
+}
+
+@media (min-width: 996px) {
+  #social {
+    padding: 0px;
   }
 }
