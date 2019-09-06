@@ -19,20 +19,16 @@ export default function Intro() {
   return (
     <div>
       <Paper className={classes.root} id='intro'>
-        <Grid container spacing={3}>
+        <Grid container spacing={3} justify='center' alignContent='center'>
           <Grid item xs={12} sm={4} md={3}>
-            <img src={Logo} alt='logo' id='logo' justify='center' />
+            <img src={Logo} alt='logo' id='logo' />
           </Grid>
-          <Grid
-            item
-            xs={12}
-            sm={8}
-            md={9}
-            alignContent='center'
-            justify='baseline'
-          >
-            <Typography variant='h5' component='h3' align='left' id='headline'>
+          <Grid item xs={12} sm={8} md={9}>
+            <Typography component='h6' variant='h4' align='left' id='headline'>
               Lisa Canini
+            </Typography>
+            <Typography variant='h6' align='left' id='introSkills'>
+              Problem Solver | Empathetic | Active Learner{' '}
             </Typography>
             <Typography component='p' align='left' id='body'>
               Passionate full stack developer, creating websites that remove

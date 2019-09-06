@@ -20,6 +20,12 @@ export default function Skills() {
             <li className='fab fa-react'>
               <span className='icon'>React</span>
             </li>
+            <li className='fas fa-laptop-code'>
+              <span className='icon'>Jest</span>
+            </li>
+            <li className='fab fa-bootstrap'>
+              <span className='icon'>Frameworks</span>
+            </li>
             <li className='fas fa-users'>
               <span className='icon'>Works well solo or with a team</span>
             </li>
