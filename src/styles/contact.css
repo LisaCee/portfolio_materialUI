@@ -10,8 +10,17 @@ button#submit.MuiButtonBase-root.primary.submit.MuiButton-contained {
   background-color: #17a2b8 !important;
 }
 
+button#submit.MuiButtonBase-root.primary.submit.MuiButton-contained:hover {
+  background-color: #007388 !important;
+}
+
 .MuiButton-containedSecondary {
   background-color: #9ea7aa !important;
+}
+
+.MuiButton-containedSecondary:hover {
+  color: #17a2b8 !important;
+  background-color: rgba(0, 0, 0, 0.08) !important;
 }
 
 @media (min-width: 768px) {

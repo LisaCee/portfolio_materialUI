@@ -42,11 +42,11 @@ export default function Footer() {
           </a>
         </ul>
         <Hidden xsDown>
-          <Typography component='p' align='center' display='inline-block'>
+          <Typography component='p' align='center'>
             Made with React, Flexbox, Material-UI and Love
           </Typography>
         </Hidden>
-        <Typography component='p' align='center' display='inline-block'>
+        <Typography component='p' align='center'>
           Lisa Canini 2019&#169;
         </Typography>
       </div>

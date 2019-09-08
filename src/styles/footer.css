@@ -22,7 +22,6 @@
 #social li.fas::before {
   margin-top: 2%;
   font-size: inherit;
-  background-color: #9ea7aa;
 }
 
 #social span {
@@ -30,7 +29,7 @@
 }
 
 #social p {
-  color: #9ea7aa;
+  color: #007388;
 }
 
 @media (min-width: 768px) {

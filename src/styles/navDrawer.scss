@@ -3,31 +3,18 @@
 header.MuiPaper-root {
   height: auto;
 }
-
 .MuiTypography-h6,
 .MuiTypography-body2 {
   font-family: 'Roboto', sans-serif;
 }
-
 .MuiAppBar-colorPrimary {
   background-color: $primaryDark !important;
 }
-
 svg.MuiSvgIcon-root {
   color: $primaryDark;
 }
-.MuiListItemText-root {
-  color: $primaryDark;
-}
-// svg.MuiSvgIcon-root:hover {
-//   color: white !important;
-//   background: $primary;
-// }
-.MuiButtonBase-Root.MuiListItem-button:hover {
-  background: $primary;
-}
-.socialNav span.icon {
-  display: none;
+h5#name {
+  color: white !important;
 }
 #navButton {
   background-color: $primaryDark !important;
@@ -35,18 +22,38 @@ svg.MuiSvgIcon-root {
 #hamburger {
   color: white !important;
 }
-// .socialNav ul {
-//   margin-top: 450px;
-//   display: flex;
-//   min-height: 100%;
-//   flex-direction: row;
-//   justify-content: flex-end;
-// }
-// .socialNav li::before {
-//   background-color: $secondary;
-//   font-size: 1rem;
-// }
+.MuiIconButton-root:hover {
+  background-color: $primaryDark !important;
+  color: white !important;
+}
+.MuiIconButton-root:hover svg.MuiSvgIcon-root {
+  color: white !important;
+}
+.MuiListItemText-root {
+  color: $primaryDark;
+}
+.MuiListItemText-root a {
+  text-decoration: none;
+}
+.MuiListItem-root:hover {
+  background-color: $primaryDark !important;
+}
+.MuiListItem-root:hover svg.MuiSvgIcon-root {
+  color: white;
+}
+.MuiListItem-root:hover .MuiListItemText-root {
+  color: white;
+  text-decoration: none !important;
+}
+.MuiListItem-root:hover .MuiListItemText-root a {
+  text-decoration: none !important;
+}
+.socialNav span.icon {
+  display: none;
+}
 
-// .socialNav li::before:hover {
-//   color: $primary !important;
-// }
+@media (min-width: 996px) {
+  header.MuiPaper-root {
+    max-height: 100px;
+  }
+}

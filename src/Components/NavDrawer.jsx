@@ -103,11 +103,11 @@ export default function PersistentDrawerRight() {
         })}
       >
         <Toolbar>
-          <Typography variant='h6' noWrap className={classes.title}>
+          <Typography variant='h5' noWrap className={classes.title} id='name'>
             Lisa Canini
           </Typography>
           <Hidden xsDown>
-            <Typography variant='body2'>Full Stack Web Developer</Typography>
+            <Typography variant='body1'>Full Stack Web Developer</Typography>
           </Hidden>
           <IconButton
             color='inherit'

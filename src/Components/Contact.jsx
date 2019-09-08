@@ -102,6 +102,7 @@ export default function Skills() {
             value='Reset Form'
             color='secondary'
             variant='contained'
+            id='cancel'
           >
             Reset
           </Button>

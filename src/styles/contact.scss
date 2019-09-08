@@ -10,9 +10,15 @@ button.MuiButtonBase-root {
 button#submit.MuiButtonBase-root.primary.submit.MuiButton-contained {
   background-color: $primary !important;
 }
-
+button#submit.MuiButtonBase-root.primary.submit.MuiButton-contained:hover {
+  background-color: $primaryDark !important;
+}
 .MuiButton-containedSecondary {
   background-color: $secondaryDark !important;
+}
+.MuiButton-containedSecondary:hover {
+  color: $primary !important;
+  background-color: $secondary !important;
 }
 @media (min-width: 768px) {
   form {

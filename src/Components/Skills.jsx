@@ -6,8 +6,8 @@ import '../styles/skills.css';
 
 export default function Skills() {
   return (
-    <Container>
-      <div id='skills'>
+    <div id='skills'>
+      <Container>
         <div>
           <Typography variant='h5'>Skills</Typography>
           <Typography variant='body1'>
@@ -49,7 +49,7 @@ export default function Skills() {
             </li>
           </ul>
         </div>
-      </div>
-    </Container>
+      </Container>
+    </div>
   );
 }

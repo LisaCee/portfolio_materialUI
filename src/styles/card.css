@@ -36,4 +36,13 @@ button {
 button span.MuiButton-label a {
   color: #007388 !important;
 }
+
+.MuiButton-root:hover {
+  background-color: #007388 !important;
+}
+
+.MuiButton-root:hover .MuiButton-label a {
+  color: #ffffff !important;
+  text-decoration: none;
+}
 /*# sourceMappingURL=card.css.map */

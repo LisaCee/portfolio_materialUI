@@ -17,7 +17,7 @@ ul li {
   padding: 0.35em 0 0 3.5em;
   position: relative;
   vertical-align: top;
-  width: 48%;
+  width: 45%;
   min-height: 3rem;
 }
 
@@ -48,16 +48,32 @@ ul li:before {
 
 .iconSkills span.icon {
   display: inline-block;
+  font-size: small;
 }
 
 ul li:nth-child(even) {
   margin-left: 1.5%;
 }
 
+@media (min-width: 768px) {
+  #skills ul {
+    margin-left: 50px;
+  }
+  .iconSkills span.icon {
+    font-size: initial;
+  }
+}
+
 @media (min-width: 960px) {
   .MuiContainer-root {
     padding-left: 95px !important;
     padding-right: 95px !important;
+  }
+  ul li {
+    width: 35%;
+  }
+  ul li:nth-child(even) {
+    margin-left: 25%;
   }
 }
 /*# sourceMappingURL=skills.css.map */
