@@ -30,6 +30,7 @@ h5#name {
 .MuiIconButton-root:hover {
   background-color: #007388 !important;
   color: white !important;
+  text-decoration: none;
 }
 
 .MuiIconButton-root:hover svg.MuiSvgIcon-root {
@@ -61,8 +62,35 @@ h5#name {
   text-decoration: none !important;
 }
 
-.socialNav span.icon {
-  display: none;
+i.fab {
+  color: grey;
+  font-size: 1.5rem !important;
+}
+
+i.fab:hover {
+  color: #007388;
+  background-color: white !important;
+}
+
+.MuiListItem-root:hover i.fab {
+  background-color: none !important;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.social {
+  margin-top: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.social:hover {
+  background-color: white !important;
 }
 
 @media (min-width: 996px) {

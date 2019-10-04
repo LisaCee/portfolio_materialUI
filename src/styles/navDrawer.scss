@@ -22,9 +22,11 @@ h5#name {
 #hamburger {
   color: white !important;
 }
+
 .MuiIconButton-root:hover {
   background-color: $primaryDark !important;
   color: white !important;
+  text-decoration: none;
 }
 .MuiIconButton-root:hover svg.MuiSvgIcon-root {
   color: white !important;
@@ -48,10 +50,29 @@ h5#name {
 .MuiListItem-root:hover .MuiListItemText-root a {
   text-decoration: none !important;
 }
-.socialNav span.icon {
-  display: none;
+i.fab {
+  color: grey;
+  font-size: 1.5rem !important;
+}
+i.fab:hover {
+  color: #007388;
+  background-color: white !important;
+}
+.MuiListItem-root:hover i.fab {
+  background-color: none !important;
+}
+a:hover {
+  text-decoration: none;
+}
+.social {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-around;
 }
 
+.social:hover {
+  background-color: white !important;
+}
 @media (min-width: 996px) {
   header.MuiPaper-root {
     max-height: 100px;
