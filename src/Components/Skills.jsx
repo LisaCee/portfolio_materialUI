@@ -17,8 +17,14 @@ export default function Skills() {
             understand what makes a site work and how she can make it better.
           </Typography>
           <ul className='iconSkills'>
+            <li className='fab fa-aws'>
+              <span className='icon'>AWS Cloud Practitioner</span>
+            </li>
             <li className='fab fa-react'>
               <span className='icon'>React</span>
+            </li>
+            <li className='far fa-comment'>
+              <span className='icon'>Strong Communication Skills</span>
             </li>
             <li className='fas fa-laptop-code'>
               <span className='icon'>Jest</span>
