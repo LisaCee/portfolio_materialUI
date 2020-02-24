@@ -28,7 +28,9 @@ export default function BookFinder() {
 
   return (
     <Card className={classes.card}>
-      <CardHeader title='Book Finder' />
+      <a href='https://github.com/LisaCee/book_finder' target='_'>
+        <CardHeader title='Book Finder' />
+      </a>
 
       <CardMedia
         className={classes.media}

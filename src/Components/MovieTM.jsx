@@ -28,14 +28,15 @@ export default function BookFinder() {
 
   return (
     <Card className={classes.card} id='gallery'>
-      <CardHeader title='Movie Time Machine' />
+      <a href='https://github.com/LisaCee/moviedb' target='_'>
+        <CardHeader title='Movie Time Machine' />
 
-      <CardMedia
-        className={classes.media}
-        image={MovieTMIMG}
-        title='Movie Time Machine'
-      />
-
+        <CardMedia
+          className={classes.media}
+          image={MovieTMIMG}
+          title='Movie Time Machine'
+        />
+      </a>
       <CardContent>
         <Typography color='textSecondary' component='p'>
           A time machine app that searches for movies by year

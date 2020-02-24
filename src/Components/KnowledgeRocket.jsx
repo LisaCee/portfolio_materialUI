@@ -28,14 +28,15 @@ export default function KnowledgeRocket() {
 
   return (
     <Card className={classes.card}>
-      <CardHeader title='Knowledge Rocket' />
+      <a href='https://github.com/LisaCee/LabsPT1_knowledge_rocket' target='_'>
+        <CardHeader title='Knowledge Rocket' />
 
-      <CardMedia
-        className={classes.media}
-        image={KnowledgeRocketIMG}
-        title='Knowledge Rocket'
-      />
-
+        <CardMedia
+          className={classes.media}
+          image={KnowledgeRocketIMG}
+          title='Knowledge Rocket'
+        />
+      </a>
       <CardContent>
         <Typography color='textSecondary' component='p'>
           A full stack app created for educators by a small team

@@ -28,13 +28,15 @@ export default function BookFinder() {
 
   return (
     <Card className={classes.card}>
-      <CardHeader title='Lambda Notes' />
+      <a href='https://github.com/LisaCee/front-end-project-week' target='_'>
+        <CardHeader title='Lambda Notes' />
 
-      <CardMedia
-        className={classes.media}
-        image={LambdaNotesIMG}
-        title='Lambda Notes'
-      />
+        <CardMedia
+          className={classes.media}
+          image={LambdaNotesIMG}
+          title='Lambda Notes'
+        />
+      </a>
       <CardContent>
         <Typography color='textSecondary' component='p'>
           A full stack note taking app with persistent storage
