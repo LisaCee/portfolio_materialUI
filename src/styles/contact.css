@@ -11,7 +11,7 @@ button#submit.MuiButtonBase-root.primary.submit.MuiButton-contained {
 }
 
 button#submit.MuiButtonBase-root.primary.submit.MuiButton-contained:hover {
-  background-color: #007388 !important;
+  background-color: #5ea5a7 !important;
 }
 
 .MuiButton-containedSecondary {
@@ -28,4 +28,5 @@ button#submit.MuiButtonBase-root.primary.submit.MuiButton-contained:hover {
     max-width: 70%;
   }
 }
+
 /*# sourceMappingURL=contact.css.map */

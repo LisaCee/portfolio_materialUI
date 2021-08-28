@@ -4,11 +4,8 @@
 }
 
 #social ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   padding: 1%;
   list-style-type: none;
   margin-left: 15px;
@@ -29,7 +26,7 @@
 }
 
 #social p {
-  color: #007388;
+  color: #5ea5a7;
 }
 
 @media (min-width: 768px) {
@@ -37,16 +34,17 @@
     width: 70%;
     margin: 2% auto;
   }
+
   #social li.fab,
-  #social li.fas {
+#social li.fas {
     margin: 3%;
     display: inline;
   }
 }
-
 @media (min-width: 996px) {
   #social {
     padding: 0px;
   }
 }
+
 /*# sourceMappingURL=footer.css.map */

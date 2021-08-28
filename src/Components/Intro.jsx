@@ -21,16 +21,16 @@ export default function Intro() {
       <Paper className={classes.root} id='intro'>
         <Grid container spacing={3} justify='center' alignContent='center'>
           <Grid item xs={12} sm={4} md={3}>
-            <img src={Logo} alt='logo' id='logo' />
+            <img src={Logo} alt='A blue-rimmed circle with a flower. Text under flower is Lisa Cee.' id='logo' />
           </Grid>
           <Grid item xs={12} sm={8} md={9}>
-            <Typography component='h6' variant='h4' align='left' id='headline'>
+            <Typography component='h1' variant='h1' align='left' id='headline'>
               Lisa Canini
             </Typography>
-            <Typography variant='h6' align='left' id='introSkills'>
-              Problem Solver | Empathetic | Active Learner{' '}
+            <Typography variant='body1' align='left' id='introSkills'>
+              Adaptive | Inquisitive | Compassionate{' '}
             </Typography>
-            <Typography component='p' align='left' id='body'>
+            <Typography variant='body1' align='left' id='body'>
               Passionate full stack developer, creating websites that remove
               barriers to access and make information available to everyone.
             </Typography>

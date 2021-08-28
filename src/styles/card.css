@@ -5,23 +5,18 @@
 }
 
 .MuiCardHeader-title {
-  color: #007388;
+  color: #5ea5a7;
   margin-left: -15px !important;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 div.details {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 3%;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  justify-content: space-evenly;
   max-width: 300px;
   height: 1.5rem;
 }
-
 div.details .fab,
 div.details .fas {
   color: #17a2b8;
@@ -34,15 +29,16 @@ button {
 }
 
 button span.MuiButton-label a {
-  color: #007388 !important;
+  color: #5ea5a7 !important;
 }
 
 .MuiButton-root:hover {
-  background-color: #007388 !important;
+  background-color: #5ea5a7 !important;
 }
 
 .MuiButton-root:hover .MuiButton-label a {
   color: #ffffff !important;
   text-decoration: none;
 }
+
 /*# sourceMappingURL=card.css.map */

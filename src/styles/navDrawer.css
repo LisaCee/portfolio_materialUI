@@ -4,15 +4,15 @@ header.MuiPaper-root {
 
 .MuiTypography-h6,
 .MuiTypography-body2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .MuiAppBar-colorPrimary {
-  background-color: #007388 !important;
+  background-color: #5ea5a7 !important;
 }
 
 svg.MuiSvgIcon-root {
-  color: #007388;
+  color: #5ea5a7;
 }
 
 h5#name {
@@ -20,7 +20,7 @@ h5#name {
 }
 
 #navButton {
-  background-color: #007388 !important;
+  background-color: #5ea5a7 !important;
 }
 
 #hamburger {
@@ -28,7 +28,7 @@ h5#name {
 }
 
 .MuiIconButton-root:hover {
-  background-color: #007388 !important;
+  background-color: #5ea5a7 !important;
   color: white !important;
   text-decoration: none;
 }
@@ -38,7 +38,7 @@ h5#name {
 }
 
 .MuiListItemText-root {
-  color: #007388;
+  color: #5ea5a7;
 }
 
 .MuiListItemText-root a {
@@ -46,7 +46,7 @@ h5#name {
 }
 
 .MuiListItem-root:hover {
-  background-color: #007388 !important;
+  background-color: #5ea5a7 !important;
 }
 
 .MuiListItem-root:hover svg.MuiSvgIcon-root {
@@ -82,11 +82,8 @@ a:hover {
 
 .social {
   margin-top: 10%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .social:hover {
@@ -98,4 +95,5 @@ a:hover {
     max-height: 100px;
   }
 }
+
 /*# sourceMappingURL=navDrawer.css.map */

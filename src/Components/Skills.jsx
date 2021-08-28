@@ -1,61 +1,95 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
-
+import Paper from '@material-ui/core/Paper';
+import Divider from '@material-ui/core/Divider';
+import Grid from '@material-ui/core/Grid';
 import '../styles/skills.css';
 
 export default function Skills() {
-  return (
-    <div id='skills'>
-      <Container>
-        <div>
-          <Typography variant='h5'>Skills</Typography>
-          <Typography variant='body1'>
-            Lisa is a valuable member of any team. She has great curiosity and
-            the resolve to find solutions. While her focus is in front end
-            development, Lisa has a full stack education in order to better
-            understand what makes a site work and how she can make it better.
-          </Typography>
-          <ul className='iconSkills'>
-            <li className='fab fa-aws'>
-              <span className='icon'>AWS Cloud Practitioner</span>
-            </li>
-            <li className='fab fa-react'>
-              <span className='icon'>React</span>
-            </li>
-            <li className='far fa-comment'>
-              <span className='icon'>Strong Communication Skills</span>
-            </li>
-            <li className='fas fa-laptop-code'>
-              <span className='icon'>Jest</span>
-            </li>
-            <li className='fab fa-bootstrap'>
-              <span className='icon'>Frameworks</span>
-            </li>
-            <li className='fas fa-users'>
-              <span className='icon'>Works well solo or with a team</span>
-            </li>
-            <li className='fas fa-code'>
-              <span className='icon'>HTML & CSS</span>
-            </li>
-            <li className='fab fa-sass'>
-              <span className='icon'>Sass</span>
-            </li>
-            <li className='fab fa-js-square'>
-              <span className='icon'>JavaScript</span>
-            </li>
-            <li className='fas fa-music'>
-              <span className='icon'>Prince fan</span>
-            </li>
-            <li className='fab fa-python'>
-              <span className='icon'>Python</span>
-            </li>
-            <li className='fab fa-node-js'>
-              <span className='icon'>Node.js</span>
-            </li>
-          </ul>
-        </div>
-      </Container>
-    </div>
-  );
+	return (
+		<div id='skills'>
+			<Container>
+					<Typography variant='body1'>
+						Lisa is a valuable member of any team. She has great curiosity and
+						the resolve to find solutions. Lisa is a full stack developer and enjoys
+						understanding what makes an application work and exploring how she can improve it.
+					</Typography>
+
+					<Grid container spacing={3} className='skills'>
+						<Grid container>
+							<Grid container item xs={12} sm={6}>
+								<Grid container item xs={12}>
+									<h2>Languages</h2>
+								</Grid>
+
+								<Grid container item xs={3}>
+									<li className='fas fa-code fa-3x'></li>
+								</Grid>
+								<Grid container item xs={6}>
+									<ul>
+										<li>PHP</li>
+										<li>JavaScript</li>
+										<li>React</li>
+										<li>Python</li>
+									</ul>
+								</Grid>
+							</Grid>
+
+							<Grid container item xs={12} sm={6}>
+								<Grid container item xs={12}>
+									<h2>Tools</h2>
+								</Grid>
+
+								<Grid container item xs={3}>
+									<li className='fab fa-wordpress fa-3x'></li>
+								</Grid>
+								<Grid container item xs={6}>
+									<ul>
+										<li>WordPress</li>
+										<li>Bootstrap</li>
+										<li>Sass</li>
+										<li>Git and GitHub</li>
+									</ul>
+								</Grid>
+							</Grid>
+
+							<Grid container item xs={12} sm={6}>
+								<Grid container item xs={12}>
+									<h2>Skills</h2>
+								</Grid>
+
+								<Grid container item xs={3}>
+									<li className='fas fa-clipboard-check fa-3x'></li>
+								</Grid>
+								<Grid container item xs={6}>
+									<ul>
+										<li>Async. Communication</li>
+										<li>Sass</li>
+										<li>Git & GitHub</li>
+									</ul>
+								</Grid>
+							</Grid>
+
+							<Grid container item xs={12} sm={6}>
+								<Grid container item xs={12}>
+									<h2>Experience</h2>
+								</Grid>
+
+								<Grid container item xs={3}>
+									<li className='fas fa-briefcase fa-3x'></li>
+								</Grid>
+								<Grid container item xs={6}>
+									<ul>
+										<li>Sandhills Development (2020 - 2021)</li>
+										<li>Lambda School Student (2018)</li>
+										<li>King County Library System (2005-2020)</li>
+									</ul>
+								</Grid>
+							</Grid>
+						</Grid>
+					</Grid>
+			</Container>
+		</div>
+	);
 }
