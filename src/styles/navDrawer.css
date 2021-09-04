@@ -8,11 +8,11 @@ header.MuiPaper-root {
 }
 
 .MuiAppBar-colorPrimary {
-  background-color: #5ea5a7 !important;
+  background-color: #190a29 !important;
 }
 
 svg.MuiSvgIcon-root {
-  color: #5ea5a7;
+  color: #190a29;
 }
 
 h5#name {
@@ -20,7 +20,7 @@ h5#name {
 }
 
 #navButton {
-  background-color: #5ea5a7 !important;
+  background-color: #190a29 !important;
 }
 
 #hamburger {
@@ -28,7 +28,7 @@ h5#name {
 }
 
 .MuiIconButton-root:hover {
-  background-color: #5ea5a7 !important;
+  background-color: #190a29 !important;
   color: white !important;
   text-decoration: none;
 }
@@ -38,7 +38,7 @@ h5#name {
 }
 
 .MuiListItemText-root {
-  color: #5ea5a7;
+  color: #190a29;
 }
 
 .MuiListItemText-root a {
@@ -46,7 +46,7 @@ h5#name {
 }
 
 .MuiListItem-root:hover {
-  background-color: #5ea5a7 !important;
+  background-color: #190a29 !important;
 }
 
 .MuiListItem-root:hover svg.MuiSvgIcon-root {
@@ -68,7 +68,7 @@ i.fab {
 }
 
 i.fab:hover {
-  color: #007388;
+  color: #403152;
   background-color: white !important;
 }
 

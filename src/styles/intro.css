@@ -10,17 +10,18 @@
 }
 
 img#logo {
-  width: 40%;
-  margin-left: 29%;
+  border-radius: 50%;
+  width: 95%;
 }
 
 #headline {
   margin-bottom: 5%;
-  color: #5ea5a7;
+  color: #190a29;
+  font-size: 3rem;
 }
 
 #introSkills {
-  color: #5ea5a7;
+  color: #403152;
   font-size: 1rem;
 }
 
@@ -31,16 +32,6 @@ img#logo {
 @media (min-width: 600px) {
   #intro {
     max-width: 96%;
-  }
-
-  #headline {
-    margin-top: 2%;
-  }
-
-  img#logo {
-    width: 90%;
-    margin-left: 8%;
-    align-items: center;
   }
 }
 @media (min-width: 768px) {
@@ -53,13 +44,6 @@ img#logo {
     max-width: 100%;
   }
 
-  img#logo {
-    width: 60%;
-    max-width: 250px;
-    margin-left: 20%;
-    margin-top: 5%;
-  }
-
   #headline {
     margin-bottom: 2%;
   }
@@ -68,13 +52,6 @@ img#logo {
   #intro {
     margin: 3% auto;
     max-width: 1100px;
-  }
-
-  img#logo {
-    width: 70%;
-    max-width: 250px;
-    margin-left: 30%;
-    margin-top: 2%;
   }
 
   #headline {

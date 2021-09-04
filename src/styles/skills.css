@@ -1,5 +1,10 @@
 h1, h2, h3 {
-  color: #5ea5a7;
+  color: #190a29;
+}
+
+#skills {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .skills {

@@ -5,7 +5,7 @@
 }
 
 .MuiCardHeader-title {
-  color: #5ea5a7;
+  color: #190a29;
   margin-left: -15px !important;
   font-family: "Raleway", sans-serif;
 }
@@ -19,21 +19,21 @@ div.details {
 }
 div.details .fab,
 div.details .fas {
-  color: #17a2b8;
+  color: #403152;
   font-size: 1.5rem;
 }
 
 button {
   margin-bottom: 1%;
-  background-color: rgba(0, 0, 0, 0.08) !important;
+  background-color: #f2f2f2 !important;
 }
 
 button span.MuiButton-label a {
-  color: #5ea5a7 !important;
+  color: #190a29 !important;
 }
 
 .MuiButton-root:hover {
-  background-color: #5ea5a7 !important;
+  background-color: #190a29 !important;
 }
 
 .MuiButton-root:hover .MuiButton-label a {

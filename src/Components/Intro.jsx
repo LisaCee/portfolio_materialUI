@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../images/LisaCee_Logo_blue.jpg';
+import Logo from '../images/avatar350.jpg';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Divider from '@material-ui/core/Divider';
@@ -21,7 +21,7 @@ export default function Intro() {
       <Paper className={classes.root} id='intro'>
         <Grid container spacing={3} justify='center' alignContent='center'>
           <Grid item xs={12} sm={4} md={3}>
-            <img src={Logo} alt='A blue-rimmed circle with a flower. Text under flower is Lisa Cee.' id='logo' />
+            <img src={Logo} alt='A white woman with short, brown hair and glasses looking to her left' id='logo' />
           </Grid>
           <Grid item xs={12} sm={8} md={9}>
             <Typography component='h1' variant='h1' align='left' id='headline'>

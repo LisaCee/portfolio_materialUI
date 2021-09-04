@@ -174,7 +174,7 @@ export default function PersistentDrawerRight() {
             </ListItem>
           </a>
           <a
-            href="https://docs.google.com/document/d/1AMnusKqwQAVXko7qqk0BJz-QBk8X-PUtbLSxhsDbPQ8/edit?usp=sharing"
+            href="https://drive.google.com/file/d/1OQ8XVmYIyFcyxW6aaQUkwIX2pIqWxT6K/view?usp=sharing"
             target="_"
             rel="noopener noreferrer"
           >

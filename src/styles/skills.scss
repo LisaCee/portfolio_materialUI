@@ -3,7 +3,10 @@
 h1, h2, h3 {
   color: $primaryDark;
 }
-
+#skills {
+  max-width: 1000px;
+  margin: 0 auto;
+}
 .skills {
   padding: 3%;
 

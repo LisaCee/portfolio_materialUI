@@ -33,7 +33,7 @@ export default function Skills() {
           Contact Me
         </Typography>
         <Typography variant='body1'>
-          Whether you wish to work with me or just want to chat about Prince or
+          When I'm not working I enjoy reading, super heroes and Priince. Whether you wish to work with me or just want to chat about Prince or
           programming, I'd love to hear from you.
         </Typography>
         <form

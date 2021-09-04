@@ -43,11 +43,11 @@ export default function Footer() {
         </ul>
         <Hidden xsDown>
           <Typography component='p' align='center'>
-            Made with React, Flexbox, Material-UI and Love
+            Made with React, Flexbox, Material-UI and &#128156;
           </Typography>
         </Hidden>
         <Typography component='p' align='center'>
-          Lisa Canini 2019&#169;
+          Lisa Canini 2021&#169;
         </Typography>
       </div>
     </div>
